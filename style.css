@@ -163,3 +163,119 @@ margin-top: 170px;
   color: gray;
   font-size: 14px;
 }
+
+/* Pricing Section */
+.pricing-parent {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 32px 32px 100px;
+  text-align: center;
+}
+
+.pricing-parent h2{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.pricing-description {
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 45px;
+}
+
+.pricing-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  text-align: left;
+}
+
+.pricing-card {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 14px;
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-card .standard, .team{
+  background-color: #f9f9f9;
+  color:#007BFF;
+  font-weight: 500;
+  border: 1.2px solid #007BFF;
+  width: 300px;
+}
+
+.pricing-card .team{
+  border-color: black;
+  color: black;
+}
+
+.pricing-card .pro{
+  width: 300px;
+}
+
+ .pricing-card-featured{
+  background:#0d1226;
+  border-color:#0d1226;
+  color:#fff;
+}
+
+.plan-name {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.pricing-card-featured .plan-name{
+  color: rgb(100, 165, 222);
+}
+
+.plan-price {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.plan-user {
+  font-size: 14px;
+  color: gray;
+}
+
+.pricing-card hr {
+  border: 0.1px solid #e0e0e0;
+  margin: 20px 0;
+}
+.pricing-card-featured hr {
+  border: 0.1px solid #262c4a;
+}
+
+.pricing-card ul {
+  flex: 1;
+  list-style-type: none;
+  margin-bottom: 28px;
+  margin-left: -10px;
+  padding: 10px;
+}
+
+.pricing-card li {
+  position: relative;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #566277;
+  padding-left: 20px;
+}
+
+.pricing-card-featured li{
+  color:#b4b5c3;
+}
+.pricing-card li::before{
+  content:"•";
+  position:absolute;
+  left:2px;
+   color: rgb(100, 165, 222);
+}
