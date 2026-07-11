@@ -9,9 +9,15 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- link for google font -->
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+
+  <!-- link for font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -23,13 +29,13 @@
       </div>
       <!-- navbar start -->
       <nav class="nav">
-        <a href="speakers">Speakers</a>
-        <a href="schedule">Schedule</a>
-        <a href="tracks">Tracks</a>
-        <a href="venue">Venue</a>
-        <a href="blog">Blog</a>
+        <a href="#speakers" class="speakers-parent-nav">Speakers</a>
+        <a href="#schedule" class="schedule-parent-nav">Schedule</a>
+        <a href="#tracks" class="tracks-parent-nav">Tracks</a>
+        <a href="#venue" class="venue-parent-nav">Venue</a>
+        <a href="#blog" class="blog-parent">Blog</a>
       </nav>
-      <a href="register"><button class="common-btn">Register Now</button></a>
+      <a href="#register"><button class="common-btn">Register Now</button></a>
     </div>
   </header>
   <!-- Header ends -->
@@ -262,10 +268,31 @@
         </div>
       </div>
 
-
     </div>
   </section>
   <!-- Relevant Section End -->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <img src="./assets/footer-logo.png" alt="DevConf 2026" class="footer-logo">
+      </div>
+
+      <div class="footer-right">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+
+
+    <hr class="divider">
+    <p class="copyright">&copy; 2026 DevConf. All rights reserved.</p>
+  </footer>
 </body>
 
 </html>

@@ -6,7 +6,7 @@ body {
 /* header */
 .header {
   top: 10px;
-  position: sticky;
+  position: static;
 }
 
 .header-container {
@@ -392,4 +392,60 @@ img {
 .session-info p {
   color: gray;
   font-size: 14px;
+}
+
+/* footer */
+.footer{
+  background-color: rgb(12, 12, 12);
+  padding: 40px 32px 32px;
+}
+.footer-container{
+  max-width: 1120px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.footer-logo{
+  height: 32px;
+  width: auto;
+}
+
+.footer-right{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.footer-right a{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  color: #98a1d1;
+  background:rgba(255,255,255,0.06);
+}
+
+.footer-right i{
+  width: 18px;
+  height: 18px;
+}
+
+.divider{
+  max-width: 1120px;
+  margin: 0 auto;
+  border: none;
+  border-top:1px solid rgba(255,255,255,0.3);
+}
+
+.copyright{
+  max-width:1120px;
+  margin:0 auto;
+  color:#9aa4d4;
+  font-size:0.9rem;
+  text-align:center;
 }
