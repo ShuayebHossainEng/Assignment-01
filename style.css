@@ -512,8 +512,8 @@ img {
 
 .copyright{
   max-width:1120px;
-  margin:0 auto;
+  margin: 10px auto;
   color:#9aa4d4;
-  font-size:0.9rem;
+  font-size: 16px;
   text-align:center;
 }
